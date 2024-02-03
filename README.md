@@ -41,3 +41,5 @@ sudo chmod +x /usr/local/bin/transmogrifier-monitor.sh
 sudo nohup ./transmogrifier-monitor.sh &  
 
 ```
+
+## Setting up the logs to be regularly sent to AWS CloudWatch by installing the CloudWatch agent to the controlled machine, for metrics monitoring, visualization and triggering notifications if needed
