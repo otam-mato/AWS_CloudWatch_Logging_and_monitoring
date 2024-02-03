@@ -5,6 +5,8 @@
 - Processes currently running on the machine launched by a user called "transmogrifier".
 - Contents of the Transmogrified/ folder.
 
+<br>
+
 ## Pre-requisites:
 
 - AWS account
