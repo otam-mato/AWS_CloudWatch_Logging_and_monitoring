@@ -44,7 +44,6 @@ sudo nohup ./transmogrifier-monitor.sh &
 
 ## Setting up the logs to be regularly sent to AWS CloudWatch by installing the CloudWatch agent to the controlled machine, for metrics monitoring, visualization and triggering notifications if needed
 
-<details markdown=1><summary markdown="span">This is how to set up</summary>
 <br>
 
 To configure the CloudWatch agent to send the required logs to CloudWatch, follow these steps:
@@ -96,4 +95,3 @@ Note that installing and configuring CloudWatch Logs on an existing Ubuntu Serve
 
 https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/QuickStartEC2Instance.html
 
-</details>
