@@ -115,7 +115,7 @@ sudo systemctl enable awslogsd.service
 <img width="800" alt="Screenshot 2023-02-22 at 15 46 44" src="https://user-images.githubusercontent.com/104728608/220776307-baed37eb-1e62-488e-840c-363688bbceb3.png">
 <img width="800" alt="Screenshot 2023-02-22 at 15 44 30" src="https://user-images.githubusercontent.com/104728608/220776309-f6091d7f-9d44-4069-872f-427af098c9f5.png">
 
-<img width="1024" alt="Screenshot 2023-02-22 at 16 03 00" src="https://user-images.githubusercontent.com/104728608/220776317-e6bb667a-7dc6-4f7f-9544-9641fe10e086.png">
+<img width="800" alt="Screenshot 2023-02-22 at 16 03 00" src="https://user-images.githubusercontent.com/104728608/220776317-e6bb667a-7dc6-4f7f-9544-9641fe10e086.png">
 
 <br>
 
