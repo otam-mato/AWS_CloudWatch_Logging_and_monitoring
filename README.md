@@ -94,7 +94,7 @@ sudo systemctl enable awslogsd.service
 >
 > https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/QuickStartEC2Instance.html
 
-#### 4. Creating AWS IAM role to acess CloudWatch and attaching it to the controlled EC2 instance.
+## 4. Creating AWS IAM role to acess CloudWatch and attaching it to the controlled EC2 instance.
 
 <img width="1024" alt="Screenshot 2023-02-22 at 15 41 41" src="https://user-images.githubusercontent.com/104728608/220776314-cd01c708-c7ce-4ccf-800f-24849c7e7e4f.png">
 <img width="1024" alt="Screenshot 2023-02-22 at 15 46 44" src="https://user-images.githubusercontent.com/104728608/220776307-baed37eb-1e62-488e-840c-363688bbceb3.png">
