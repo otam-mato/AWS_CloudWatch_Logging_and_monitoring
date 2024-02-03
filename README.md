@@ -9,8 +9,8 @@
 
 ## Pre-requisites:
 
-- AWS account
-- AWS EC2 with appropriate security groups setup
+- **AWS** account
+- **AWS EC2** with appropriate security groups setup
 
 <br>
 
