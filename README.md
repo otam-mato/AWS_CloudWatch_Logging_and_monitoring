@@ -30,3 +30,14 @@ while true; do  # Start an infinite loop
 done
 
 ```
+
+## Launch the script in the background:
+
+```sh
+# This line grants execute permission to the transmogrifier-monitor.sh script, allowing it to be run as a command
+sudo chmod +x /usr/local/bin/transmogrifier-monitor.sh  
+
+# This line runs the transmogrifier-monitor.sh script in the background as a root user using the Bash shell
+sudo nohup ./transmogrifier-monitor.sh &  
+
+```
