@@ -1,6 +1,6 @@
 # Logging and monitoring a user activity on a server with AWS Cloudwatch
 
-## A solution which monitors at regular intervals and sends the results to AWS Cloudwatch the following:
+## Let's assume we want to monitor a user 'Transmogrifier' and his activity at regular intervals and send the results to AWS Cloudwatch, including:
 
 - Processes currently running on the machine launched by a user called "transmogrifier".
 - Contents of the Transmogrified/ folder.
