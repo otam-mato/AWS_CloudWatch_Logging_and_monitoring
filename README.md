@@ -11,3 +11,22 @@
 
 
 ## The script which we will use to log current processes and content of the folder:
+
+```sh
+#!/bin/bash
+
+# This script is to run indefinitely and periodically log information about the transmogrifier process and its associated files.
+
+while true; do  # Start an infinite loop
+
+  # Log the list of processes running the transmogrifier command, along with the hostname and current date/time, to a file called transmogrifier_process.log
+  sudo bash -c "sudo printf '\n%s %s %s\n\n%s\n' 'Processes lists for transmogrifier:' '$(hostname)' '$(date +'%Y-%m-%d %H:%M:%S')' '$(ps -u transmogrifier -f)' >> /var/log/transmogrifier_process.log"
+
+  # Log the list of files in the Transmogrified directory, along with the hostname and current date/time, to a file called transmogrifier_files.log
+  sudo bash -c "sudo printf '\n%s %s %s\n\n%s\n' 'File list of transmogrifier:' '$(hostname)' '$(date +'%Y-%m-%d %H:%M:%S')' '$(sudo ls -la /home/transmogrifier/Transmogrified/)' >> /var/log/transmogrifier_files.log"
+
+
+  sleep 300  # Wait for 300 seconds (5 minutes) before running the loop again
+done
+
+```
