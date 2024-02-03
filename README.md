@@ -10,7 +10,7 @@
 ![image](https://github.com/otam-mato/AWS_CloudWatch_Logging_and_monitoring/assets/113034133/cb2af34a-a608-406d-94fc-06d4df91f00e)
 
 
-## We will use this script to log the current processes and contents of the folder:
+## We will use this script to log the current processes and contents of the user's folder:
 
 ```sh
 #!/bin/bash
