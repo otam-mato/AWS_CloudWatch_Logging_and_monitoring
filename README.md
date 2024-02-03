@@ -44,8 +44,9 @@ sudo nohup ./transmogrifier-monitor.sh &
 
 ```
 
-## Set up the logs to be regularly sent to AWS CloudWatch by installing the CloudWatch agent to the controlled machine
 <br>
+
+## Set up the logs to be regularly sent to AWS CloudWatch by installing the CloudWatch agent to the controlled machine
 
 To configure the CloudWatch agent to send the required logs to CloudWatch, follow these steps:
 
