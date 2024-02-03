@@ -103,3 +103,37 @@ sudo systemctl enable awslogsd.service
 <img width="1024" alt="Screenshot 2023-02-22 at 16 03 00" src="https://user-images.githubusercontent.com/104728608/220776317-e6bb667a-7dc6-4f7f-9544-9641fe10e086.png">
 
 <br>
+
+## AWS CloudWatch:
+
+<br>
+
+Create the log groups and dashboards and start monitoring:
+
+<br>
+
+
+<img width="1024" alt="Screenshot 2023-02-23 at 13 26 54" src="https://user-images.githubusercontent.com/104728608/220920574-ec4bdd8e-f049-4550-abdb-68e0c2816d89.png">
+
+<img width="1024" alt="Screenshot 2023-02-22 at 23 24 02" src="https://user-images.githubusercontent.com/104728608/220786281-1cfdb499-0c22-45d6-9721-85f43d308217.png">
+
+<img width="1024" alt="Screenshot 2023-02-22 at 22 51 09" src="https://user-images.githubusercontent.com/104728608/220778614-9de1ab07-db85-4865-997c-2ffe4ce4c51b.png">
+<img width="1024" alt="Screenshot 2023-02-22 at 22 56 10" src="https://user-images.githubusercontent.com/104728608/220782101-fcac7808-53ad-484f-81f5-2ef7460aebfa.png">
+<img width="1024" alt="Screenshot 2023-02-22 at 22 56 57" src="https://user-images.githubusercontent.com/104728608/220782133-654ee0a7-cc6b-45cc-b0c6-3317da39065f.png">
+
+
+<img width="1024" alt="Screenshot 2023-02-22 at 22 26 39" src="https://user-images.githubusercontent.com/104728608/220776238-646d4958-9d7c-47bd-8c57-84cc40cd5680.png">
+<img width="1024" alt="Screenshot 2023-02-22 at 17 14 05" src="https://user-images.githubusercontent.com/104728608/220776248-c4874465-5852-4fcf-a305-208ecd2becc8.png">
+
+<img width="1024" alt="Screenshot 2023-02-22 at 22 28 50" src="https://user-images.githubusercontent.com/104728608/220776255-150e4fe7-0384-4522-bbef-66d47f28dfc7.png">
+<img width="1024" alt="Screenshot 2023-02-22 at 22 14 46" src="https://user-images.githubusercontent.com/104728608/220776257-99044f53-2226-48b3-a596-3c652c93643e.png">
+<img width="1024" alt="Screenshot 2023-02-22 at 22 30 02" src="https://user-images.githubusercontent.com/104728608/220776258-8d02d3f9-b474-4e79-86f2-7233c0bc5fa0.png">
+<img width="1024" alt="Screenshot 2023-02-22 at 22 24 50" src="https://user-images.githubusercontent.com/104728608/220776263-f8a3391d-43d0-4372-9192-8c43fc1a4dd3.png">
+
+<img width="1024" alt="Screenshot 2023-02-22 at 16 54 30" src="https://user-images.githubusercontent.com/104728608/220776271-25df14e6-c862-4df9-8adc-30d8a57ae449.png">
+<img width="1024" alt="Screenshot 2023-02-22 at 16 27 56" src="https://user-images.githubusercontent.com/104728608/220776278-68a5f21e-c4b4-4a2f-a68b-d4780f57acbc.png">
+
+<img width="1024" alt="Screenshot 2023-02-23 at 17 12 02" src="https://user-images.githubusercontent.com/104728608/220980313-8bf4a736-39bc-4fcc-bdce-681918ccaa77.png">
+
+
+<img width="1024" alt="Screenshot 2023-02-22 at 22 34 38" src="https://user-images.githubusercontent.com/104728608/220776269-509fe0c2-6316-4b36-af25-dfa7b4caa752.png">
