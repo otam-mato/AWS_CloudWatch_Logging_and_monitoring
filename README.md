@@ -2,7 +2,7 @@
 
 ## A solution which monitors at regular intervals and sends results to WS Cloudwatch:
 
-- Processes currently running on the machine.
+- Processes currently running on the machine launched by a user called "transmogrifier".
 - Contents of the Transmogrified/ folder.
 
 
