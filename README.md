@@ -10,7 +10,7 @@
 ## Pre-requisites:
 
 - **AWS** account
-- **AWS EC2** with appropriate security groups setup
+- **AWS EC2** with appropriate security groups permissions
 
 <br>
 
