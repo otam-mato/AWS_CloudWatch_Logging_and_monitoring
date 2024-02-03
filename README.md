@@ -59,7 +59,7 @@ sudo yum install -y awslogs
 
 **3. Once installed, open the CloudWatch Logs agent configuration file located at /etc/awslogs/awslogs.conf.**
 
-**4. Add log files that you want to monitor to the configuration file, specifying the log file location, log format, and destination log group in CloudWatch.** Here is an example configuration entry:
+**4. Add log files that you want to monitor to the configuration file, specifying the log file location, log format, and destination log group in CloudWatch.**<br> Here is an example configuration entry:
 ``` sh
 [/var/log/transmogrifier_process.log]
 datetime_format = %b %d %H:%M:%S
@@ -77,7 +77,7 @@ log_stream_name = {instance_id}
 initial_position = start_of_file
 log_group_name = transmogrifier_demo_files
 ```
-In this example, we're monitoring the /var/log/transmogrifier_process.log file and sending its contents to log groups named transmogrifier_demo_processes and transmogrifier_demo_files in CloudWatch. The log_stream_name parameter will automatically include the instance ID in the log stream name, allowing you to distinguish between logs from different instances.
+In this example, we're monitoring the **/var/log/transmogrifier_process.log** file and sending its contents to log groups named **transmogrifier_demo_processes** and **transmogrifier_demo_files** in **CloudWatch**. The **log_stream_name** parameter will automatically include the instance ID in the log stream name, allowing you to distinguish between logs from different instances.
 
 **5. By default, the /etc/awslogs/awscli.conf points to the us-east-1 Region. To push your logs to a different Region, edit the awscli.conf file and specify that Region.**
 
