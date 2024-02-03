@@ -31,6 +31,8 @@ done
 
 ```
 
+<br>
+
 ## Launch the script in the background to start logging:
 
 ```sh
