@@ -31,7 +31,7 @@ done
 
 ```
 
-## Launch the script in the background:
+## Launch the script in the background to start logging:
 
 ```sh
 # This line grants execute permission to the transmogrifier-monitor.sh script, allowing it to be run as a command
