@@ -43,3 +43,57 @@ sudo nohup ./transmogrifier-monitor.sh &
 ```
 
 ## Setting up the logs to be regularly sent to AWS CloudWatch by installing the CloudWatch agent to the controlled machine, for metrics monitoring, visualization and triggering notifications if needed
+
+<details markdown=1><summary markdown="span">This is how to set up</summary>
+<br>
+
+To configure the CloudWatch agent to send the required logs to CloudWatch, follow these steps:
+
+1. SSH into the EC2 instance hosting the servers that will run the Transmogrifier.
+
+2. Install the awslogs package. This is the recommended method for installing awslogs on Amazon Linux instances. 
+``` sh
+sudo yum update -y
+
+sudo yum install -y awslogs
+```
+
+3. Once installed, open the CloudWatch Logs agent configuration file located at /etc/awslogs/awslogs.conf.
+
+4. Add log files that you want to monitor to the configuration file, specifying the log file location, log format, and destination log group in CloudWatch. Here is an example configuration entry:
+``` sh
+[/var/log/transmogrifier_process.log]
+datetime_format = %b %d %H:%M:%S
+file = /var/log/transmogrifier_process.log
+buffer_duration = 5000
+log_stream_name = {instance_id}
+initial_position = start_of_file
+log_group_name = transmogrifier_demo_processes
+
+[/var/log/transmogrifier_files.log]
+datetime_format = %b %d %H:%M:%S
+file = /var/log/transmogrifier_files.log
+buffer_duration = 5000
+log_stream_name = {instance_id}
+initial_position = start_of_file
+log_group_name = transmogrifier_demo_files
+```
+In this example, we're monitoring the /var/log/transmogrifier_process.log file and sending its contents to log groups named transmogrifier_demo_processes and transmogrifier_demo_files in CloudWatch. The log_stream_name parameter will automatically include the instance ID in the log stream name, allowing you to distinguish between logs from different instances.
+
+5. By default, the /etc/awslogs/awscli.conf points to the us-east-1 Region. To push your logs to a different Region, edit the awscli.conf file and specify that Region.
+
+6. If you are running Amazon Linux 2, start the awslogs service with the following command:
+
+```
+sudo systemctl start awslogsd
+```
+7. (Optional) Run the following command to start the awslogs service at each system boot:
+
+```
+sudo systemctl enable awslogsd.service
+```
+Note that installing and configuring CloudWatch Logs on an existing Ubuntu Server, CentOS, or Red Hat instance will vary. In more details here:
+
+https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/QuickStartEC2Instance.html
+
+</details>
