@@ -1,4 +1,4 @@
-# Logging and monitoring a server with AWS Cloudwatch
+# Logging and monitoring a user activity on a server with AWS Cloudwatch
 
 ## A solution which monitors at regular intervals and sends the results to AWS Cloudwatch the following:
 
